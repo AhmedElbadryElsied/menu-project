@@ -1,0 +1,50 @@
+*{
+    font-family: "Almarai", serif;
+}
+.title{
+    color: #224f61;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height:64px;
+}
+.under-line{
+    height: 1px;
+    width: 200px;
+    border: 2px solid #20c997;
+    border-radius: 10px;
+}
+.item-title{
+    color: #555555;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.item-discribtion{
+    color: #8c8c8c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.item-price{
+    color: #20c997;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 20px;
+
+}
+@keyframes identifier {
+    0%{
+        transform: scale(0.1);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.animation{
+    animation-name: identifier;
+    animation-duration: 1.4s;
+}
